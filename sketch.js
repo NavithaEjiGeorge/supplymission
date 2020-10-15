@@ -44,11 +44,12 @@ function setup() {
 function draw() {
   rectMode(CENTER);
   background("black");
-  if(keyCode === UP_ARROW){
+  if(keyCode === DOWN_ARROW){
 	Matter.Body.setStatic(packageBody,false); 
 	}
   packageSprite.x= packageBody.position.x 
   packageSprite.y= packageBody.position.y 
   drawSprites();
- 
+ fill("white")
+ text("PRESS THE DOWN ARROW KEY TO DROP A BASKET",100,200)
 }
