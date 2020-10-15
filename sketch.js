@@ -51,5 +51,5 @@ function draw() {
   packageSprite.y= packageBody.position.y 
   drawSprites();
  fill("white")
- text("PRESS THE DOWN ARROW KEY TO DROP A BASKET",100,200)
+ text("PRESS THE DOWN ARROW KEY TO DROP A BASKET",50,400)
 }
